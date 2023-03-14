@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite Playgrounds">
+    <test name="Playground Tests Class">
+        <groups>
+            <run>
+                <include name = "playground1"></include>
+            </run>
+        </groups>
+    </test>
+</suite>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite Playgrounds">
+    <test name="Playground First Test Class">
+        <classes>
+            <class name="playgrounds.FirstTest"></class>
+        </classes>
+    </test>
+    <test name="Playground Second Test Class">
+        <classes>
+            <class name="playgrounds.SecondTest"></class>
+        </classes>
+    </test>
+    <test name="Playground Third Test Class">
+        <classes>
+            <class name="playgrounds.ThirdTest"></class>
+        </classes>
+    </test>
+</suite>
+
