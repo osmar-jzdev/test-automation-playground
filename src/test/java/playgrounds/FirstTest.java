@@ -10,8 +10,6 @@ public class FirstTest {
     @BeforeClass
     public void beforeClass() { System.out.println("$$ BEFORE CLASS FIRST TEST 1 $$"); }
 
-    @BeforeTest
-    public void beforeTest(){ System.out.println("$$ BEFORE TEST FIRST TEST 1 $$"); }
 
     @BeforeMethod
     public void beforeMethod(){ System.out.println("$$ BEFORE METHOD FIRST TEST 1 $$"); }
@@ -46,4 +44,7 @@ public class FirstTest {
 
     @AfterGroups("playground1")
     public void afterGroups() { System.out.println("$$ AFTER GROUPS FIRST TEST 1 $$"); }
+
+    @BeforeTest
+    public void beforeTest(){ System.out.println("$$ BEFORE TEST FIRST TEST 1 $$"); }
 }
